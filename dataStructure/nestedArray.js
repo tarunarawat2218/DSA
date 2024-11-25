@@ -8,7 +8,7 @@
 // Return the longest length of a set s[k].
 
 
-var nestingArray(nums){
+var nestingArray = function(nums){
     var max = 0;
     function calculatedLength(start){
      let length = 0;
